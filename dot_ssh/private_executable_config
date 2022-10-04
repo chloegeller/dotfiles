@@ -1,0 +1,35 @@
+Host jm0.io
+  IdentityFile ~/.ssh/1p-defiant.pub
+  identitiesOnly yes
+
+Host defiant
+  IdentityFile ~/.ssh/1p-defiant.pub
+  identitiesOnly yes
+
+Host       yosemite
+  HostName 10.173.214.120
+  User     chloe
+
+Host       yellowstone
+  HostName 10.173.214.167
+  User     chloe
+
+Host       sequoia
+  HostName 10.173.214.224
+  User     chloe
+
+Host       lambda-dual
+  HostName 10.173.214.191
+  User     chloe
+
+Host                *
+  IdentityAgent       "~/Library/Group Containers/2BUA8C4S2C.com.1password/t/agent.sock"
+  AddKeysToAgent      yes
+  IgnoreUnknown       UseKeychain
+  UseKeychain         yes
+  ServerAliveInterval 120
+  ForwardAgent        yes
+  ControlMaster       auto
+  ControlPath         ~/.ssh/%h@%p-%r
+  ControlPersist      60m
+  IPQoS               lowdelay throughput
