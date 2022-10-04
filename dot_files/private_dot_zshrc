@@ -1,0 +1,52 @@
+#: #############################################################################
+#: @ionlights/.zshrc
+#: Thanks for taking a look at my dotfiles! :blush:
+#: However, it's definitely necessary to cite my sources, which made building
+#:   this so much easier. :sweat_smile:
+#:   - https://carlosbecker.com/posts/speeding-up-zsh/
+#:   - https://blog.callstack.io/supercharge-your-terminal-with-zsh-8b369d689770
+#: #############################################################################
+
+#: font to be used: "Fira Code", https://github.com/tonsky/FiraCode/releases
+conda activate
+
+#: source all the things
+for file in $(ls ${ZSH}/??-*.zsh); do
+    source $file
+done
+
+source ${ZSH}/@$(uname).zsh
+
+#: Antibody Config & Setup
+# fpath=(${DOTS}/completions $fpath)
+[ ! -f "${PLUGINS}-$(uname)" ] && plugins "setup"
+plugins "load"
+
+#: prompt configuration
+eval "$(starship init zsh)"
+
+#: setup additional hooks and whatnot
+eval "$(direnv hook zsh)"
+
+#: fuzzy-finder
+[ $(command -v fzf) ] && source "$(brew --prefix)/opt/fzf/shell/key-bindings.zsh"
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/Users/cgeller/Applications/brew/Caskroom/miniforge/base/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/Users/cgeller/Applications/brew/Caskroom/miniforge/base/etc/profile.d/conda.sh" ]; then
+        . "/Users/cgeller/Applications/brew/Caskroom/miniforge/base/etc/profile.d/conda.sh"
+    else
+        export PATH="/Users/cgeller/Applications/brew/Caskroom/miniforge/base/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+
+if [ -f "/Users/cgeller/Applications/brew/Caskroom/miniforge/base/etc/profile.d/mamba.sh" ]; then
+    . "/Users/cgeller/Applications/brew/Caskroom/miniforge/base/etc/profile.d/mamba.sh"
+fi
+# <<< conda initialize <<<
+

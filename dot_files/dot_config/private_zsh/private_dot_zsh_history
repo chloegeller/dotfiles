@@ -1,0 +1,15 @@
+which $SHELL
+ls -la
+ll .zshrc
+ls -l .zsh
+ls -l .zshrc
+echo $ZSH
+echo $PATH
+vim ~/.zshenv
+vim ~/.zshenv
+plugins install
+plugins
+vim .zshrc
+vim ~/.zshenv
+echo $PATH
+which zsh

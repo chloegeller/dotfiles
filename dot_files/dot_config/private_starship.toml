@@ -1,0 +1,73 @@
+
+# format = [
+#     "conda", "username", "hostname", "directory", "git_branch",
+#     "git_commit", "git_state", "git_status",
+#     "python","memory_usage", "cmd_duration", "line_break", "jobs",
+#     "battery", "time", "character"
+# ]
+
+format = """\
+$conda\
+$username\
+$hostname\
+$directory\
+$git_branch\
+$git_commit\
+$git_state\
+$git_status\
+$package\
+$python\
+$ruby\
+$julia\
+$cmd_duration\
+$line_break\
+$time\
+$character\
+"""
+
+[character]
+success_symbol = "[🦋](bold) "
+error_symbol = "[🤡](bold red) "
+
+
+[conda]
+symbol = " 🌈 "
+# style = "bold #7daafb"
+ignore_base = false
+format = "[$symbol$environment]($style) "
+
+[directory]
+# style = "bold italic"
+
+# [git_status]
+# conflicted = " 🏳 "
+# ahead = " 🏎💨 "
+# behind = " 😰 "
+# diverged = " 😵"
+# untracked = " 🤷🏻‍♀️"
+# stashed = " 📦 "
+# modified = " 📝 "
+# staged = '[++\($count\)](green)'
+# renamed = " 👅 "
+# deleted = " 🗑 "
+
+# [git_branch]
+# symbol = " 🐱 "
+
+[java]
+symbol = "🍵 "
+# style = "bold italic"
+# disabled = true
+
+
+[battery]
+full_symbol = "🔋 "
+charging_symbol = "⚡️ "
+discharging_symbol = "💀 "
+
+[python]
+# symbol = "🐍 "
+# style = "bold italic"
+
+# [nodejs]
+# format = "via [🤖 $version](bold) "

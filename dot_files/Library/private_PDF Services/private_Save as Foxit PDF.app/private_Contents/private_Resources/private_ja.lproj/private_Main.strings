@@ -1,0 +1,24 @@
+
+/* Class = "NSMenuItem"; title = "Save as Foxit PDF"; ObjectID = "1Xt-HY-uBw"; */
+"1Xt-HY-uBw.title" = "Foxit PDF として保存";
+
+/* Class = "NSComboBoxCell"; title = "Foxit PhantomPDF"; ObjectID = "3HV-EO-6fJ"; */
+"3HV-EO-6fJ.title" = "Foxit PhantomPDF";
+
+/* Class = "NSComboBoxCell"; 3HV-EO-6fJ.ibShadowedObjectValues[0] = "Foxit PhantomPDF"; ObjectID = "3HV-EO-6fJ"; */
+"3HV-EO-6fJ.ibShadowedObjectValues[0]" = "Foxit PhantomPDF";
+
+/* Class = "NSComboBoxCell"; 3HV-EO-6fJ.ibShadowedObjectValues[1] = "Launch Nothing"; ObjectID = "3HV-EO-6fJ"; */
+"3HV-EO-6fJ.ibShadowedObjectValues[1]" = "何も起動しない";
+
+/* Class = "NSWindow"; title = "Save as Foxit PDF"; ObjectID = "IQv-IB-iLA"; */
+"IQv-IB-iLA.title" = "Foxit PDF として保存";
+
+/* Class = "NSTextFieldCell"; title = "After PDF Creation:"; ObjectID = "djP-HE-SMb"; */
+"djP-HE-SMb.title" = "PDF の作成後 :";
+
+/* Class = "NSButtonCell"; title = "Continue"; ObjectID = "i4L-fR-9KV"; */
+"i4L-fR-9KV.title" = "続行";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "vOB-p3-Sjl"; */
+"vOB-p3-Sjl.title" = "キャンセル";

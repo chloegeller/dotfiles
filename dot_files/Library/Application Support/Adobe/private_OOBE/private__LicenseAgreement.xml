@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LicenseAgreementAcceptanceStatus>
+    <LicenseAgreementAcceptanceRecords>
+        <LicenseAgreementAcceptanceRecord>
+            <Type>1</Type>
+            <AcceptedBy Type="GUID">F4207BE55EEA31890A495CE2@AdobeID</AcceptedBy>
+            <Version>1000</Version>
+            <Locale>en_US</Locale>
+            <TimeStamp>1592406663</TimeStamp>
+            <Phase>0</Phase>
+        </LicenseAgreementAcceptanceRecord>
+    </LicenseAgreementAcceptanceRecords>
+</LicenseAgreementAcceptanceStatus>

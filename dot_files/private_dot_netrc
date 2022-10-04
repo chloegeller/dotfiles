@@ -1,0 +1,6 @@
+machine api.heroku.com
+  login chloegeller2@gmail.com
+  password 61c79292-8c26-4c37-902e-048623daf8c3
+machine git.heroku.com
+  login chloegeller2@gmail.com
+  password 61c79292-8c26-4c37-902e-048623daf8c3
