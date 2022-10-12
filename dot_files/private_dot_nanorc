@@ -1,8 +1,0 @@
-set linenumbers
-
-set numbercolor magenta
-
-set titlecolor brightblack,cyan
-
-set errorcolor brightwhite,red
-
