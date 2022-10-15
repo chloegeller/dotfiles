@@ -1,0 +1,7 @@
+#!/usr/bin/env zsh
+
+export XDG_CONFIG_HOME="${HOME}/.config"
+export ZSH="${XDG_CONFIG_HOME}/zsh"
+export ZDOTDIR="${ZSH}"
+
+[[ -f ${ZDOTDIR}/.zshenv ]] && source ${ZDOTDIR}/.zshenv

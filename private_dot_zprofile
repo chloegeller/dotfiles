@@ -1,5 +1,0 @@
-#: Don't store failed commands
-#:   Pulled from: https://superuser.com/a/902508
-zshaddhistory() { whence ${${(z)1}[1]} >| /dev/null || return 1 }
-
-

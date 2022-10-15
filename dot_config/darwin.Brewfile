@@ -82,6 +82,8 @@ brew "zsh-fast-syntax-highlighting"
 brew "zsh-history-substring-search"
 # Name service for ZeroTier Central
 brew "zerotier/tap/zeronsd"
+# Password manager that keeps all passwords secure behind one password
+cask "1password"
 # Web browser focusing on privacy
 cask "brave-browser"
 # Download and manage your addons and mods
