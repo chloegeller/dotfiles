@@ -84,6 +84,8 @@ brew "zsh-history-substring-search"
 brew "zerotier/tap/zeronsd"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
+# Command-line helper for the 1Password password manager
+cask "1password-cli"
 # Web browser focusing on privacy
 cask "brave-browser"
 # Download and manage your addons and mods
