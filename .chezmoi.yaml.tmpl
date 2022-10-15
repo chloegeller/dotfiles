@@ -10,7 +10,7 @@ age:
 data:
   osid: {{ $osid | quote }}
   appdir:  "{{ .chezmoi.homeDir }}/.local/share"
-  brewfile: "{{ .chezmoi.homeDir }}/.config/{{ .osid }}.Brewfile"
+  brewfile: "{{ .chezmoi.homeDir }}/.config/{{ $osid }}.Brewfile"
   macos:
     iterm:
       theme:
