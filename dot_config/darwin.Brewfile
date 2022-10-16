@@ -56,8 +56,6 @@ brew "ranger"
 brew "ssh-vault"
 # Cross-shell prompt for astronauts
 brew "starship"
-# Programmatically correct mistyped console commands
-brew "thefuck"
 # Terminal multiplexer
 brew "tmux"
 # Extraction utility for .zip compressed archives
