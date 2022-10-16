@@ -86,6 +86,8 @@ brew "zerotier/tap/zeronsd"
 cask "1password"
 # Command-line helper for the 1Password password manager
 cask "1password-cli"
+# Menu bar icon organizer
+cask "bartender"
 # Web browser focusing on privacy
 cask "brave-browser"
 # Download and manage your addons and mods
