@@ -94,6 +94,8 @@ cask "brave-browser"
 cask "curseforge"
 # App to build and share containerized applications and microservices
 cask "docker"
+# System monitoring app
+cask "istat-menus"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
 # JetBrains tools manager
