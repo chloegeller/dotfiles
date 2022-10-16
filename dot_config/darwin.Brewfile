@@ -92,6 +92,8 @@ cask "brave-browser"
 cask "curseforge"
 # App to build and share containerized applications and microservices
 cask "docker"
+# Terminal emulator as alternative to Apple's Terminal app
+cask "iterm2"
 # JetBrains tools manager
 cask "jetbrains-toolbox"
 # Privacy-first, open-source platform for knowledge sharing and management
