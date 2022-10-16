@@ -118,6 +118,8 @@ cask "nextcloud"
 cask "notion"
 # Home media player
 cask "plex"
+# VPN client focusing on security
+cask "protonvpn"
 # Multimedia player
 cask "vlc"
 # Mesh VPN client
