@@ -84,6 +84,8 @@ brew "zerotier/tap/zeronsd"
 cask "1password"
 # Command-line helper for the 1Password password manager
 cask "1password-cli"
+# Application launcher and productivity software
+cask "alfred"
 # Menu bar icon organizer
 cask "bartender"
 # Web browser focusing on privacy
