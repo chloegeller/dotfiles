@@ -122,6 +122,8 @@ cask "notion"
 cask "plex"
 # VPN client focusing on security
 cask "protonvpn"
+# Music streaming service
+cask "spotify"
 # Multimedia player
 cask "vlc"
 # Mesh VPN client
