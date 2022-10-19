@@ -124,6 +124,8 @@ cask "plex"
 cask "protonvpn"
 # Music streaming service
 cask "spotify"
+# Open-source code editor
+cask "visual-studio-code"
 # Multimedia player
 cask "vlc"
 # Mesh VPN client
