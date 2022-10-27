@@ -1,6 +1,18 @@
 {{- $osid := .chezmoi.os -}}
-{{- if hasKey .chezmoi.osRelease "id" -}}
-  {{- $osid = printf "%s-%s" .chezmoi.os .chezmoid.osRelease.id -}}
+{{- if (and (eq .chezmoi.os "linux") (hasKey .chezmoi.osRelease "id")) -}}
+  {{- $osid = printf "%s-%s" .chezmoi.os .chezmoi.osRelease.id -}}
+{{- end -}}
+
+{{- $condaOS := .chezmoi.os -}}
+{{- if eq $condaOS "darwin" }}
+  {{- $condaOS = "osx" -}}
+{{- end -}}
+
+{{ $condaArch := .chezmoi.arch }}
+{{- if (and (eq $condaOS "linux") (eq $condaArch "arm64")) -}}
+  {{- $condaArch = "aarch64" -}}
+{{- else if (eq $condaArch "amd64") -}}
+  {{- $condaArch = "64" -}}
 {{- end -}}
 
 encryption: "age"
@@ -9,13 +21,21 @@ age:
 
 data:
   osid: {{ $osid | quote }}
-  appdir:  "{{ .chezmoi.homeDir }}/.local/share"
-  brewfile: "{{ .chezmoi.homeDir }}/.config/{{ $osid }}.Brewfile"
+  appdir:  "{{ .chezmoi.homeDir }}/.local/opt"
+  brew:
+    path: "{{ .appdir }}/brew" 
+    file: "{{ .chezmoi.homeDir }}/.config/{{ $osid }}.Brewfile"
+    install: {{ promptBool "Install Homebrew" true }}
   macos:
     iterm:
       theme:
         dark: "Smoooooth"
         light: "Smoooooth"
+  conda:
+    subdir: {{ printf "%s-%s" $condaOS $condaArch | quote }}
+    clean: {{ promptBool "Clear current conda installation" false }}
+    path: "{{ .appdir }}/conda"
+    install: {{ promptBool "Install Conda/Mamba" true }}
 
 diff:
   exclude: 
