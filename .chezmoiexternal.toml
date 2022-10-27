@@ -7,6 +7,16 @@
   type = "git-repo"
   url = "https://github.com/rupa/z"
   refreshPeriod = "168h"
+  
+[".local/opt/SpaceVim"]
+  type = "git-repo"
+  url = "https://github.com/SpaceVim/SpaceVim.git"
+  refreshPeriod = "168h"
+
+[".local/opt/brew"]
+  type = "git-repo"
+  url = "https://github.com/homebrew/brew.git"
+  refreshPeriod = "24h"
 
 [".local/share/antidote"]
   type = "git-repo"
