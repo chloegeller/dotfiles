@@ -16,6 +16,8 @@ brew "brew-cask-completion"
 brew "chezmoi"
 # Formatting tools for C, C++, Obj-C, Java, JavaScript, TypeScript
 brew "clang-format"
+# Cloudflare Tunnel client (formerly Argo Tunnel)
+brew "cloudflared"
 # GNU File, Shell, and Text utilities
 brew "coreutils"
 # Load/unload environment variables based on $PWD
