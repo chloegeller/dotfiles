@@ -48,6 +48,8 @@ brew "mackup"
 brew "make"
 # Mac App Store command-line interface
 brew "mas"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
 # Collection of one-player puzzle games
 brew "puzzles"
 # Interpreted, interactive, object-oriented programming language
