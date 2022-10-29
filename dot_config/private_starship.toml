@@ -38,7 +38,7 @@ error_symbol = "[🤡](bold red) "
 
 
 [conda]
-symbol = " 🌈 "
+symbol = "❄️  "
 # style = "bold #7daafb"
 ignore_base = false
 format = "[$symbol$environment]($style) "
