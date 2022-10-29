@@ -60,6 +60,8 @@ brew "ranger"
 brew "ssh-vault"
 # Cross-shell prompt for astronauts
 brew "starship"
+# Open source continuous file synchronization application
+brew "syncthing"
 # Terminal multiplexer
 brew "tmux"
 # Extraction utility for .zip compressed archives
