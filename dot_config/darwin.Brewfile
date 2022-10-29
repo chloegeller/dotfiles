@@ -3,6 +3,7 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
+tap "homebrew/services"
 tap "zerotier/tap"
 # Shell plugin manager
 brew "antibody"
@@ -34,6 +35,8 @@ brew "findutils"
 brew "gh"
 # Distributed revision control system
 brew "git"
+# Quickly rewrite git repository history
+brew "git-filter-repo"
 # Interactive command-line tool for using emoji in commit messages
 brew "gitmoji"
 # Terminal based graphical activity monitor inspired by gtop and vtop
@@ -61,7 +64,7 @@ brew "ssh-vault"
 # Cross-shell prompt for astronauts
 brew "starship"
 # Open source continuous file synchronization application
-brew "syncthing"
+brew "syncthing", restart_service: true
 # Terminal multiplexer
 brew "tmux"
 # Extraction utility for .zip compressed archives
