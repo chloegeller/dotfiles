@@ -45,6 +45,10 @@ brew "gotop"
 brew "jq"
 # Simple terminal UI for git commands
 brew "lazygit"
+# Emulator for x86 and PowerPC
+brew "qemu"
+# Linux virtual machines
+brew "lima"
 # Keep your Mac's application settings in sync
 brew "mackup"
 # Utility for directing compilation
