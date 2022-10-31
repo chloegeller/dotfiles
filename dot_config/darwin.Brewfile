@@ -137,6 +137,8 @@ cask "notion"
 cask "plex"
 # VPN client focusing on security
 cask "protonvpn"
+# Team communication and collaboration software
+cask "slack"
 # Music streaming service
 cask "spotify"
 # Open-source code editor
