@@ -19,8 +19,10 @@ zstyle ':completion:*:man:*'      menu yes select
 zstyle ':completion:*' completer _complete
 zstyle ':completion:*' matcher-list '' 'm:{[:lower:][:upper:]}={[:upper:][:lower:]}' '+l:|=* r:|=*'
 
-[[ ! $(which fzf) ]] && source "$(brew --prefix)/opt/fzf/shell/completion.zsh" 2> /dev/null
-[[ ! $(which gh) ]] && eval "$(gh completion -s zsh)" 2> /dev/null
+# [[ ! $(which fzf) ]] && source "$(brew --prefix)/opt/fzf/shell/completion.zsh" 2> /dev/null
+# [[ ! $(which gh) ]] && eval "$(gh completion -s zsh)" 2> /dev/null
+
+FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
 
 autoload -Uz compinit
 
