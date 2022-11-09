@@ -141,6 +141,8 @@ cask "protonvpn"
 cask "slack"
 # Music streaming service
 cask "spotify"
+# Virtual machines UI using QEMU
+cask "utm"
 # Open-source code editor
 cask "visual-studio-code"
 # Multimedia player
