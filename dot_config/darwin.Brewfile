@@ -41,6 +41,8 @@ brew "git-filter-repo"
 brew "gitmoji"
 # Terminal based graphical activity monitor inspired by gtop and vtop
 brew "gotop"
+# Improved top (interactive process viewer)
+brew "htop"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
 # Lazier way to manage everything docker
