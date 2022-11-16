@@ -8,6 +8,8 @@ brew "chezmoi"
 brew "direnv"
 # Command-line fuzzy finder written in Go
 brew "fzf"
+# GitHub command-line tool
+brew "gh"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.10", link: false
 # Platform built on V8 to build network applications
