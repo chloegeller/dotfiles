@@ -105,6 +105,8 @@ cask "1password-cli"
 cask "alfred"
 # Menu bar icon organizer
 cask "bartender"
+# 3D creation suite
+cask "blender"
 # Web browser focusing on privacy
 cask "brave-browser"
 # Download and manage your addons and mods
