@@ -16,6 +16,8 @@ brew "python@3.10", link: false
 brew "node"
 # Interactive command-line tool for using emoji in commit messages
 brew "gitmoji"
+# Tools and libraries to manipulate images in many formats
+brew "imagemagick"
 # Simple terminal UI for git commands
 brew "lazygit"
 # Terminal multiplexer
