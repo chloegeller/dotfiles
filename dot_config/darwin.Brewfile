@@ -77,6 +77,8 @@ brew "syncthing", restart_service: true
 brew "tmux"
 # Command-line interface to the freedesktop.org trashcan
 brew "trash-cli"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
 # Extraction utility for .zip compressed archives
 brew "unzip"
 # Executes a program periodically, showing output fullscreen
