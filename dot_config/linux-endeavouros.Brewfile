@@ -16,6 +16,8 @@ brew "python@3.10", link: false
 brew "node"
 # Interactive command-line tool for using emoji in commit messages
 brew "gitmoji"
+# Terminal based graphical activity monitor inspired by gtop and vtop
+brew "gotop"
 # Tools and libraries to manipulate images in many formats
 brew "imagemagick"
 # Simple terminal UI for git commands
