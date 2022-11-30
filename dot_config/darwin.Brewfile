@@ -75,6 +75,8 @@ brew "starship"
 brew "syncthing", restart_service: true
 # Terminal multiplexer
 brew "tmux"
+# Command-line interface to the freedesktop.org trashcan
+brew "trash-cli"
 # Extraction utility for .zip compressed archives
 brew "unzip"
 # Executes a program periodically, showing output fullscreen
