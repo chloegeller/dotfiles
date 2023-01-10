@@ -117,6 +117,8 @@ cask "brave-browser"
 cask "curseforge"
 # App to build and share containerized applications and microservices
 cask "docker"
+# Web browser
+cask "firefox"
 # System monitoring app
 cask "istat-menus"
 # Terminal emulator as alternative to Apple's Terminal app
